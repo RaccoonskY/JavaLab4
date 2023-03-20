@@ -38,14 +38,13 @@ public class MyClient implements Runnable {
                 var client_req = cnl_scanner.nextLine();
                 out.println(client_req);
                 if(".".equals(client_req)){
+                    logger.CloseFile();
                     break;
                 }
                 var response = in.readLine();
                 while (!"$".equals(response)){
-                    if (response != null) {
-                        System.out.println(response);
-                        logger.LogString(response);
-                    }
+
+                    logger.LogString(response);
                     response = in.readLine();
                 }
                 Thread.yield();

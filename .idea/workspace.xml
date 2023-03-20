@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="654d5860-ba07-46f3-9548-2052dd36c253" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaLab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example/TCPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example/UDPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example/UDPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyTCP/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyTCP/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyTCP/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyTCP/client_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyTCP/server_log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyTCP/server_setting.txt" afterDir="false" />
+    <list default="true" id="654d5860-ba07-46f3-9548-2052dd36c253" name="Changes" comment="inital commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyTCP/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyTCP/MyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyTCP/MyLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyTCP/MyLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyTCP/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyTCP/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyTCP/server_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyTCP/server_log.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Victor/Desktop/3course/6сем/Java/лабы/lab4/JavaLab4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Victor/Desktop/3course/6сем/Java/лабы/lab3/JabaLab3"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MyClient" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTCP.MyClient" />
@@ -86,8 +73,16 @@
       <workItem from="1678752670707" duration="270000" />
       <workItem from="1679207524653" duration="3311000" />
       <workItem from="1679293290475" duration="12311000" />
-      <workItem from="1679314989805" duration="3901000" />
+      <workItem from="1679314989805" duration="6901000" />
     </task>
+    <task id="LOCAL-00001" summary="inital commit">
+      <created>1679318951633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679318951633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inital commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
   </component>
 </project>

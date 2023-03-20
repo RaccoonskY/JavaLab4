@@ -12,6 +12,7 @@ public class MyLogger {
     public void LogString(String logged_string)  {
         try {
             fw.write(logged_string+"\n");
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

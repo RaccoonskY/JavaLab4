@@ -132,6 +132,7 @@ public class MyServer {
                         System.out.println("New request: "+inputLine);
                         logger.LogString("New request: "+inputLine);
                         if (".".equals(inputLine)) {
+                            logger.CloseFile();
                             out.println("good bye");
                             break;
                         }
@@ -230,10 +231,11 @@ public class MyServer {
                     }
 
                     try {
+                        logger.CloseFile();
                         in.close();
                         out.close();
                         clientSocket.close();
-                        logger.CloseFile();
+
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }
@@ -244,7 +246,7 @@ public class MyServer {
         }
 
         System.out.println("Server launched...");
-        logger.LogString("Sever launched...");
+        logger.LogString("Server launched...");
         while (true) {
             try {
                 Socket socket = servSocket.accept();
